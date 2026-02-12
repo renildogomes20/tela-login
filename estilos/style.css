@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(101, 26, 172);
+    
+}
+/*main setting*/
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+/*General settings*/
+section {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:;
+    background-color: white;
+    border-radius: 12px;
+    width: 272px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header p {
+    padding: 10px;
+}
+
+/*Fundo metal setings*/
+
+#picture {
+    border-radius: 12px 12px 0px 0px;
+    display: block;
+    width: 272px;
+    height: 210px;
+    background-image: url('../imagens/metal.jpg');
+    background-size: cover;
+    background-position: left bottom;
+    
+}
+
+/*Formlário settings(inputs)*/
+
+label > input {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 9px 58px 13px 0px;
+    border: 1px solid rgb(86, 16, 151);
+    
+}
+
+.field {
+    background-color: rgb(81, 21, 137);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+/*Enviar settings*/
+#enviar {
+    margin-top:4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(113, 178, 155);
+}
+
+#enviar input {
+    border: none;
+    background-color: rgb(113, 178, 155);
+    color: white;
+}
+/*Esqueci senha*/
+#esque{
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 9px;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid rgb(104, 171, 160);
+    background-color: rgb(255, 255, 255);
+    color: rgb(104, 171, 160);
+    
+}
+/* Icones*/
+.material-symbols-outlined {
+    color: white;
+  font-variation-settings:
+  'FILL' 2,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  margin-left: 2px;
+}
+
+
+
+
