@@ -144,7 +144,7 @@
     section {
         display: flex;
         width: 470px;
-        height: 248px;
+        height: 220px;
     }
 
     #picture {
@@ -155,14 +155,14 @@
     }
 
     label > input {
-        padding: 5px;
+        padding: 4px;
     }
 
     #enviar {
-        padding: 4px;
+        padding: 3.5px;
     }
 
     #esque {
-        padding: 4px;
+        padding: 3px;
     }
 }
