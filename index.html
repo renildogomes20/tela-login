@@ -26,18 +26,20 @@
                         <p>
                             <label for="mail" class="field">
                                 <span class="material-symbols-outlined">person</span>
-                                <input type="email" name="mail" id="mail" placeholder="  Username" autocomplete="username">
+                                <input type="email" name="mail" id="mail" placeholder="  Username" autocomplete="username" required maxlength="30">
                             </label>
                         </p>
                         <p>
                             <label for="senha" class="field">
                                 <span class="material-symbols-outlined">key</span>
-                                <input type="password" name="senha" id="senha" placeholder="  Password" required>
+                                <input type="password" name="senha" id="senha" placeholder="  Password" required minlength="8" maxlength="20">
                             </label>
             
                             <div >
-                                <p id="enviar">Entrar</p>
-                                <p id="esque">Esqueci a senha</p>
+                                <p id="enviar"><input type="submit" value="Entrar"> </p>
+                                <div id="forget">
+                                    <p id="esque">Esqueci a senha <span class="material-symbols-outlined" id="email">email</span></p>
+                                </div>
                             </div>
                     </form>
                 </div>
