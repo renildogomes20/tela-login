@@ -139,13 +139,17 @@ label > input:focus {
   margin-left: 2px;
 }
 
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
 footer > p {
     text-align: center;
     color: rgba(255, 255, 255, 0.822);
     text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.486);
-    bottom: 0;
-    position: absolute;
-    width: 100%;
+    margin-bottom: 5px;
 }
 
 
