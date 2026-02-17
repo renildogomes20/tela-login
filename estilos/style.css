@@ -12,9 +12,13 @@
 body {
     background-color: rgb(101, 26, 172);
     width: 100vw;
-    min-height: 100vh;
+}
+
+main {
+    background-color: rgb(101, 26, 172);
+    width: 100vw;
+    height: 97vh;
     position: relative;
-    
 }
 
 /*General settings*/
@@ -27,11 +31,13 @@ section {
     background-color: white;
     border-radius: 12px;
     width: 272px;
+    box-shadow: -4px -3px 4px rgba(0, 0, 0, 0.205);
 }
 
 header h1 {
     text-align: center;
     margin-top: 10px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.377);
 }
 
 header > p {
@@ -134,6 +140,8 @@ label > input:focus {
 footer > p {
     text-align: center;
     color: rgba(255, 255, 255, 0.822);
+    text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.486);
+    margin-bottom: 5px;
 }
 
 
