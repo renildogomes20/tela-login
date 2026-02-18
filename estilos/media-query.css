@@ -161,12 +161,12 @@
         padding: 3.5px;
     }
 
-    #enviar {
-        padding: 3.5px;
+    #enviar > input {
+        padding: 3.7px;
     }
 
     #esque {
-        padding: 3px;
+        padding: 1px;
     }
 }
 
